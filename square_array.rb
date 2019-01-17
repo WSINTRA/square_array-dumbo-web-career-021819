@@ -5,7 +5,7 @@ def square_array(array)
 
     output = m ** 2
 
-    new_array.shift(output)
+    new_array.push(output)
 
   end
 puts new_array
