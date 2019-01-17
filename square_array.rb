@@ -1,9 +1,10 @@
 def square_array(array)
   # your code here
+  new_array =[]
   array.each do |m|
 
     output = m ** 2
-    new_array =[]
+
     new_array.unshift(output)
 
   end
