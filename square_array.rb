@@ -3,4 +3,6 @@ def square_array(array)
   array.each do |m|
     output = m**2
     puts output
+  end
+  
 end
