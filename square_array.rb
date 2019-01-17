@@ -4,7 +4,7 @@ def square_array(array)
 
     output = m ** 2
     new_array =[]
-    new_array += output
+    new_array.unshift(output)
 
   end
 puts new_array
