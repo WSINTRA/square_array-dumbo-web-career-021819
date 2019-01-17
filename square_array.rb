@@ -8,7 +8,7 @@ def square_array(array)
     new_array.push(output)
 
   end
-puts new_array
+new_array
 end
 
 #test_array = [1,2,3,4,8]
