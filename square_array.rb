@@ -3,10 +3,12 @@ def square_array(array)
   array.each do |m|
 
     output = m ** 2
-    puts output
-  end
+    new_array =[]
+    new_array += output
 
+  end
+puts new_array
 end
 
-#test_array = [1,2,3,4,8]
-#square_array(test_array)
+test_array = [1,2,3,4,8]
+square_array(test_array)
